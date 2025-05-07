@@ -1,11 +1,15 @@
+import ContactForm from '@/components/ui/home/contact-form';
 import { Container } from '../components/ui/containers';
+import AutoSection from '@/components/ui/home/automotive-section';
+import HeroSection from '@/components/ui/home/hero';
 
 const Home = () => {
   return (
-    <Container className='flex justify-center items-center text-center h-[85vh]'>
-      <h1 className='text-4xl font-bold'>
-      </h1>
-    </Container>
+    <>
+      <HeroSection />
+      <AutoSection />
+      <ContactForm />
+    </>
   );
 };
 

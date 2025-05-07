@@ -45,7 +45,7 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         {open && (
-          <div className="md:hidden flex flex-col items-start gap-4 mt-4">
+          <div className="md:hidden flex flex-col items-start gap-4 mt-4 pb-6">
             <Link href="/contact" className="text-sm font-medium">Contact Us</Link>
             <Link href="https://linkedin.com" target="_blank" className="text-sm font-medium">
             <LinkedIcon />
