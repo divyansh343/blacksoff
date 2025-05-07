@@ -21,6 +21,7 @@ export default function AutoSection() {
         exterior: "/videos/exterior.mp4"
       },
     },
+    
     commercial: {
       title: "Commercial vehicles",
       description: "Advancing engineering for heavy-duty vehicles.",
