@@ -1,11 +1,11 @@
 const siteConfig = {
-  title: "Rishit's Default Next.js Starter",
+  title: "Supreme Group's",
   tagline:
-    'This is a starter template for Next.js projects with Tailwind CSS, SEO, and more.',
-  url: 'https://nextjs-starter.rishit.dev',
+    ' Supreme Group.',
+  url: 'https://supremegroup.dev',
   baseUrl: '/',
-  projectName: 'rp-nextjs-starter',
-  organizationName: 'rishitpatel.com',
+  projectName: 'supreme-group',
+  organizationName: 'supremegroup.com',
 };
 
 module.exports = siteConfig;

@@ -5,7 +5,6 @@ import '../styles/main.scss';
 export const metadata = {
   title: siteConfig.title,
   description: siteConfig.tagline,
-  metadataBase: new URL(siteConfig.url),
   openGraph: {
     title: siteConfig.title,
     description: siteConfig.tagline,
