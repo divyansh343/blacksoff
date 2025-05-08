@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import { LanguageIcon, LinkedIcon, LinkedInIcon } from '../icons/home';
+import { LanguageIcon, LinkedinIcon } from '../icons/home';
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -28,7 +28,7 @@ export default function Navbar() {
               </button>
             </Link>
             <Link href="https://linkedin.com" target="_blank">
-              <LinkedIcon />
+              <LinkedinIcon />
             </Link>
             <div className="flex items-center gap-1">
               <LanguageIcon />
@@ -48,7 +48,7 @@ export default function Navbar() {
           <div className="md:hidden flex flex-col items-start gap-4 mt-4 pb-6">
             <Link href="/contact" className="text-sm font-medium">Contact Us</Link>
             <Link href="https://linkedin.com" target="_blank" className="text-sm font-medium">
-            <LinkedIcon />
+            <LinkedinIcon />
             </Link>
             <div className="flex items-center gap-2">
               <LanguageIcon />

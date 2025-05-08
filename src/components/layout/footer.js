@@ -9,10 +9,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <Link href="/" className="inline-block">
-            <Image 
-              src="/icons/logo.svg" 
-              alt="Supreme Group Logo" 
-              width={200} 
+            <Image
+              src="/icons/logo.svg"
+              alt="Supreme Group Logo"
+              width={200}
               height={60}
               className="h-12 w-auto"
             />
@@ -91,10 +91,8 @@ export default function Footer() {
           <div>Supreme house: 110, 16th Road, Chembur, Mumbai - 400071.</div>
         </div>
       </div>
-      
-      {/* SVG Overlay in bottom right */}
-      <div className="absolute bottom-0 right-0 w-72 h-72 lg:w-48 lg:h-48  pointer-events-none">
-      <FooterOverlay />
+      <div className="absolute top-0 right-0">
+        <FooterOverlay />
       </div>
     </footer>
   );

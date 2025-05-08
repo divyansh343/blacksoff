@@ -26,7 +26,7 @@ export default function ContactForm() {
 
   return (
     <section className="w-full bg-[#0067B1] text-white">
-      <Container className="container mx-auto px-4 py-16 md:py-24">
+      <Container className="container mx-auto px-4 py-16 md:py-44">
         <div className="flex flex-col md:flex-row md:space-x-12 lg:space-x-24">
           {/* Contact Information */}
           <div className="w-full md:w-1/2 mb-12 md:mb-0">
@@ -48,7 +48,7 @@ export default function ContactForm() {
 
               <div>
                 <p className="font-medium">Email :</p>
-                <p>info@supremegroup.co.in</p>
+                <a href='mailto:info@supremegroup.co.in' >info@supremegroup.co.in</a>
               </div>
             </div>
           </div>

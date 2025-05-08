@@ -37,7 +37,7 @@ export const LanguageIcon = (props) => (
   </svg>
 );
 
-export const LinkedIcon = (props) => (
+export const LinkedinIcon = (props) => (
   <svg
     width={24}
     height={24}
