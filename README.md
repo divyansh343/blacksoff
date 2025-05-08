@@ -19,7 +19,7 @@ yarn dev
 ```
 
 Visit `http://localhost:3000` to view the app.
-You can visit the live version here: [Blacksoff Project](https://supreme-group-app.vercel.app/)
+- You can visit the live version here: [Blacksoff Project](https://supreme-group-app.vercel.app/)
 ---
 
 ## 🧩 Component Architecture Overview
@@ -55,14 +55,6 @@ components/
 - Lazy loading for non-critical components and media.
 - CSS and JS are minified via Next.js build process.
 - Used Framer Motion only where animation was essential to reduce overhead.
-
----
-
-## ♿ Accessibility Considerations
-
-- All interactive elements have appropriate `aria` labels.
-- Focus management and keyboard navigability have been tested.
-- Semantic HTML tags are used for better screen reader compatibility.
 
 ---
 
