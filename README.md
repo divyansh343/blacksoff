@@ -19,7 +19,7 @@ yarn dev
 ```
 
 Visit `http://localhost:3000` to view the app.
-
+You can visit the live version here: [Blacksoff Project](https://supreme-group-app.vercel.app/)
 ---
 
 ## 🧩 Component Architecture Overview
